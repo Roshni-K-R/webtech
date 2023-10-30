@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    /* background-color: #8305ea; */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.container{
+    width:90%;
+    /* background-color: red;  */
+    display: flex; 
+    
+}
+.subcontainer{
+    justify-content: space-between; 
+
+}
+.logo
+{
+    height: 50px;
+    width: 15%;
+    /* background-color: yellow; */
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+.nav{
+    height: 50px;
+    width: 40%;
+    /* background-color: green; */
+    display: flex;
+}
+.nav_items{
+    height: 50px;
+    width: 20%;
+    /* background-color: grey; */
+    font-family: 'Segoe UI';
+    line-height: 50px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
+.nav_items:hover{
+    background-color: white;
+    color: #8305ea; 
+}
+
+/* css for banner */
+.banner{
+    height: 600px;
+    width: 100%;
+    background-color: grey;
+    background-image: url('./image/banner.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bantext{
+    height: 250px;
+    width: 40%;    
+    background-color:rgba(131,5,234,0.8);
+    margin-left: 100px;
+}
+.bantext:hover{
+    padding: 10px;
+
+}
+
+.padd{
+    padding: 20px;
+    font-size:13px;
+    font-family: 'Segoe UI';
+    margin-top: 30px;
+}
+.banbtn{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    transition: .4s;
+}
+.banbtn:hover{
+    background-color: wheat;
+    color: #8305ea;
+    
+}
+
+.heading{
+    margin-bottom: 10px;
+}    
+.content{
+    margin-bottom: 20px;
+}
+
+ /* css for services  */
+ .services{
+     padding-top: 30px;
+     padding-bottom: 10px;
+     background-color:rgba(0, 0,0,1 );
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     color: white;
+     border:red;
+ }
+ .servicecontainer{
+     margin: 30px;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     /* border: white; */   
+ }
+ .service:hover{
+     padding: 5px;
+     background-color: #8305ea;
+ }
+ .service{
+     height: 250px;
+     width: 40%;
+     background-color: white;
+     display: flex;
+     margin-bottom:40px;
+     /* border: white; */
+ }
+ .service-img{
+     width: 40%;
+     height: 250px;
+     background-color:red;
+     background-size: cover;
+     display: flex;
+     overflow: hidden;
+     
+ }
+ .service-detail{
+    width: 60%;
+    height: 250px;
+    /* background-color:green;  */
+    color: black;
+    font-size: 13px;
+}
+.service-padd{
+    padding: 10px;
+}
+.service-btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black ;
+    color: white;
+    margin-left: 40px;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    transition: .4s;
+}
+.service-btn:hover{
+    background-color:white; 
+    color: black;
+
+}
+.service-title{
+    margin-bottom: 20px;
+}
+.service-content{
+    margin-bottom: 20px;
+}
+/* css for about */
+.about{
+   padding: 20px;
+   background-color: grey;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color:  rgba(104, 202, 189, 0.89);
+}
+
+.abt-container{
+    margin-bottom :20px;
+    font-family: Segoe UI;
+    font-size: 20;
+}  
+.design{
+font-size: x-large;
+font-weight: bold;
+font-family: sans-serif;
+}
+
+/* css for highlight */
+.highlight{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.highlight-container{
+    justify-content: space-between;
+}
+
+
+.high-ele{
+    width: 25%;
+    height: 200px;
+    color: white;
+    background-color:rgba(231, 225, 236, 0.7);;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.quote{
+    padding: 30px;
+    background-color: rgb(72, 72, 75);
+    display: flex;
+    justify-content: center;
+}
+
+.quotebtn{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black ;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    transition: .4s;   
+}
+
+.quotebtn:hover{
+    color: black;
+    background-color: white;
+}
+
+/* css for portfolios */
+.portfolio{
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d5b9ef;
+    color: rgb(49, 2, 87);
+    padding-top: 10px;
+}
+.port-containers{
+    width: 100%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.project{
+width: 25%;
+height: 250px;
+background-color: red;
+display: flex;
+}
+
+.pro1{
+    background-image: url('https://wallpapercave.com/wp/wp3117170.jpg');
+    background-size: cover;
+}
+.pro2{
+   background-image: url('https://www.mwallpapers.com/photos/celebrities/games/transport-fever-2-android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4khd-wallpapers-desktop-background-android-iphone-1080p-4k-mjxba.jpg?v=1615325836');
+   background-size: cover;
+   align-items: flex-end;
+}
+.pro3{
+    background-image: url('https://images.pexels.com/photos/2041540/pexels-photo-2041540.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+.pro4{
+    background-image: url('https://cutewallpaper.org/21/instrument-wallpaper/Guitar-Wallpapers-Hd-Resolution-For-Desktop-Wallpaper-1920-x-.jpg');
+    background-size: cover;
+    align-items: flex-end;
+}
+.pro5{
+    background-image: url('https://images.alphacoders.com/467/thumb-1920-4673.jpg');
+    background-size: cover;
+}
+.pro6{
+    background-image: url('https://www.teahub.io/photos/full/30-301406_2000x1330-free-beautiful-place-wallpaper-hd-data-resorts.jpg');
+    background-size: cover;
+    align-items: flex-end;
+}
+.pro7{
+    background-image: url('https://wallpapercave.com/wp/wp2100544.jpg');
+    background-size: cover;
+}
+.pro8{
+    background-image: url('https://cutewallpaper.org/22/airpods-2-wallpapers/apple-airpods-hd-wallpaper-%E2%80%93-wallpapershit.jpg');
+    background-size: cover;
+    align-items: flex-end;
+}
+.project-title{
+color: white;
+width: 100%;
+height: 100px;
+background-color: rgba(131,5,234,0.6);
+font-family: Segoe UI;
+font-size: 13px;
+text-indent: 30px;
+line-height: 125px;
+cursor: pointer;
+transition: 0.1s;
+}
+.project-title:hover{
+    height: 250px;
+}
